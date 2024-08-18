@@ -1,5 +1,8 @@
 
 # divide & conquer algo
+# quicksort speed id depending on pivot choosen
+# In the worst case:
+# quicksort takes O(n 2) time.
 
 def quick_sort(arr):
     if len(arr)<2:
@@ -13,8 +16,5 @@ def quick_sort(arr):
 print (quick_sort([5, 10, 2, 3,25 ,12]))
 
 
-# quicksort speed id depending on pivot choosen
-# In the worst case:
-# quicksort takes O(n 2) time. depending on pivot choosen
 
 
